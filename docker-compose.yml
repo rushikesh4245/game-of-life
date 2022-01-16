@@ -5,4 +5,4 @@ services:
   ports:
   - "8080-8090:8080"
   volumes:
-  - "/jenkins/GOL/game-of-life/gameoflife-web/target:/usr/local/tomcat/webapps"
+  - "/GOL/game-of-life/gameoflife-web/target:/usr/local/tomcat/webapps"
