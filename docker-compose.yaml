@@ -3,6 +3,6 @@ services:
  web-server:
   image: 'tomcat:9'
   ports:
-  - "8080-8090:8080"
+  - "8081-8090:8080"
   volumes:
   - "/GOL/game-of-life/gameoflife-web/target:/usr/local/tomcat/webapps"
